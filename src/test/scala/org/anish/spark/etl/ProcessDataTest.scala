@@ -27,7 +27,7 @@ class ProcessDataTest extends FlatSpec with Matchers with BeforeAndAfter {
       sparkConf.setMaster("local[3]")
     }
     if (!sparkConf.contains("spark.app.name")) {
-      sparkConf.setAppName("MastGlobalDataProcessing-" + getClass.getName)
+      sparkConf.setAppName("UnitTest-" + getClass.getName)
     }
     spark = SparkSession
       .builder()
