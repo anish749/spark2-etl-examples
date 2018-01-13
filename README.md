@@ -94,4 +94,7 @@ spark-submit --class org.anish.spark.etl.ProcessData --master yarn-client \
 spark2-etl-examples-1.0-SNAPSHOT.jar
 ```
 
+### Use for educational purposes
+If you are trying to run these examples to understand Spark, and you need data, kindly have a look at the 'data' branch
+
 ___
